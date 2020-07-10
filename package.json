@@ -1,38 +1,38 @@
 {
-    "name": "my-mockup",
-    "version": "1.2.3",
-    "main": "dist/test-comp.umd.js",
-    "module": "dist/test-comp.esm.js",
-    "unpkg": "dist/test-comp.min.js",
-    "browser": {
-      "./sfc": "src/TestComp.vue"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/thirapa/newvue.git"
-    },
-    "keywords": [
-      "thirapa",
-      "npm_test_package1"
-    ],
-    "author": "Thirapa",
-    "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/thirapa/newvue/issues"
-    },
-    "homepage": "https://github.com/thirapa/newvue#readme",
-    "scripts": {
-        "build": "npm run build:umd & npm run build:es & npm run build:unpkg",
-        "build:umd": "rollup --config build/rollup.config.js --format umd --file dist/test-comp.umd.js",
-        "build:es": "rollup --config build/rollup.config.js --format es --file dist/test-comp.esm.js",
-        "build:unpkg": "rollup --config build/rollup.config.js --format iife --file dist/test-comp.min.js"
-      },
-      "devDependencies": {
-        "rollup": "^1.17.0",
-        "@rollup/plugin-buble": "^0.21.3",
-        "@rollup/plugin-commonjs": "^11.1.0",
-        "rollup-plugin-vue": "^5.0.1",
-        "vue": "^2.6.10",
-        "vue-template-compiler": "^2.6.10"
-      }
+  "name": "my-mockup",
+  "version": "1.2.4",
+  "main": "dist/test-comp.umd.js",
+  "module": "dist/test-comp.esm.js",
+  "unpkg": "dist/test-comp.min.js",
+  "browser": {
+    "./sfc": "src/TestComp.vue"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thirapa/newvue.git"
+  },
+  "keywords": [
+    "thirapa",
+    "npm_test_package1"
+  ],
+  "author": "Thirapa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thirapa/newvue/issues"
+  },
+  "homepage": "https://github.com/thirapa/newvue#readme",
+  "scripts": {
+    "build": "npm run build:umd & npm run build:es & npm run build:unpkg",
+    "build:umd": "rollup --config build/rollup.config.js --format umd --file dist/test-comp.umd.js",
+    "build:es": "rollup --config build/rollup.config.js --format es --file dist/test-comp.esm.js",
+    "build:unpkg": "rollup --config build/rollup.config.js --format iife --file dist/test-comp.min.js"
+  },
+  "devDependencies": {
+    "rollup": "^1.17.0",
+    "@rollup/plugin-buble": "^0.21.3",
+    "@rollup/plugin-commonjs": "^11.1.0",
+    "rollup-plugin-vue": "^5.0.1",
+    "vue": "^2.6.10",
+    "vue-template-compiler": "^2.6.10"
+  }
 }
