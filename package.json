@@ -20,7 +20,7 @@
     "bugs": {
       "url": "https://github.com/thirapa/newvue/issues"
     },
-    "homepage": "https://github.com/thirapa/newvue#readme"
+    "homepage": "https://github.com/thirapa/newvue#readme",
     "scripts": {
         "build": "npm run build:umd & npm run build:es & npm run build:unpkg",
         "build:umd": "rollup --config build/rollup.config.js --format umd --file dist/test-comp.umd.js",
