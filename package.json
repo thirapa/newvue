@@ -1,5 +1,5 @@
 {
-    "name": "my-pkg",
+    "name": "my-mockup",
     "version": "1.2.3",
     "main": "dist/test-comp.umd.js",
     "module": "dist/test-comp.esm.js",
